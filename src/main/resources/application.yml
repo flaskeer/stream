@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    bootstrap-servers: home.lin07.me:9092
+management:
+  security:
+    enabled: false
+camel:
+  springboot:
+    name: SampleCamel
+
+greeting: Hello World
+
+timer:
+  period: 2000
