@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: home.lin07.me:9092
+    bootstrap-servers: localhost:9092
 management:
   security:
     enabled: false

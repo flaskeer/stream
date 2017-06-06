@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
  * @version 1.0
  *          2017/6/5.
  */
-public class TestV {
+public class TestSquare {
 
     public int squareDigits(int n) {
         StringBuilder result = new StringBuilder();
@@ -51,7 +51,7 @@ public class TestV {
 
     @Test
     public void test_square() {
-        int digits = new TestV().squareDigits2(9119);
+        int digits = new TestSquare().squareDigits2(9119);
         Assertions.assertThat(digits).isEqualTo(811181);
     }
 
