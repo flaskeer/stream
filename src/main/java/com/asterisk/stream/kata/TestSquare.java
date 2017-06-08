@@ -1,7 +1,5 @@
 package com.asterisk.stream.kata;
 
-import org.assertj.core.api.Assertions;
-import org.junit.Test;
 
 import java.util.stream.Collectors;
 
@@ -49,11 +47,7 @@ public class TestSquare {
     }
 
 
-    @Test
-    public void test_square() {
-        int digits = new TestSquare().squareDigits2(9119);
-        Assertions.assertThat(digits).isEqualTo(811181);
-    }
+
 
 
 
